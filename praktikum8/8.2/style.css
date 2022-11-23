@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+header {
+    background-color: khaki;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+main article {
+    background-color: rgba(252, 252, 252, 0);
+flex: 3;
+}
+
+main aside {
+    background-color: rgb(204, 190, 218);
+flex: 1;
+}
+main nav {
+    background-color: rgba(123, 123, 204, 0.699);
+flex: 1;
+}
+header, footer {
+    background-color: khaki;
+    padding: 1rem 0;
+}
